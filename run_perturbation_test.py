@@ -5,6 +5,7 @@ import pandas as pd
 import sentencepiece
 import protobuf
 
+
 # Load model 
 tokenizer = AutoTokenizer.from_pretrained("textattack/albert-base-v2-SST-2")
 inference_model = AutoModelForSequenceClassification.from_pretrained("textattack/albert-base-v2-SST-2")
