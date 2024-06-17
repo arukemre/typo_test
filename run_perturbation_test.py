@@ -2,6 +2,7 @@ from transformers import pipeline, AutoModelForSequenceClassification, AutoToken
 import nlpaug.augmenter.char as nac
 import json
 import pandas as pd
+import sentencepiece
 
 # Load model 
 tokenizer = AutoTokenizer.from_pretrained("textattack/albert-base-v2-SST-2")
