@@ -3,7 +3,7 @@ import nlpaug.augmenter.char as nac
 import json
 import pandas as pd
 import sentencepiece
-import protobuf
+import google.protobuf
 
 
 # Load model 
