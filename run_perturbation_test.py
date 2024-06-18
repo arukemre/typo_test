@@ -3,6 +3,8 @@ import nlpaug.augmenter.char as nac
 import json
 import pandas as pd
 import sentencepiece
+import google.protobuf
+
 
 # Load model 
 tokenizer = AutoTokenizer.from_pretrained("textattack/albert-base-v2-SST-2")
